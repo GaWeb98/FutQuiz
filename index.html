@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="container">
+        <div class="apresentacao">
+            <img src="bola.png" alt="Bola">
+            <p>Teste seu conhecimento com nosso FutQuiz</p>
+            <button>COMEÇAR</button>
+        </div>
+
+        <div class="Progresso--barra">
+            <div class="Progresso"></div>
+            <div class="QuantidadeQuestoes">Questão 1 de 10</div>
+        </div>
+
+        <div class="QuestoesArea">
+            <div class="Questao"><span>pergunta</span></div>
+            <div class="Opcoes"></div>
+            <div class="proximo--box">
+                <div class="selecione"><h5>Selecione uma opção</h5></div>
+                <button class="proximo">Próxima</button>
+            </div>
+        </div>
+
+        <div class="PlacarPontos">
+            <img src="prize.png" alt="imagem">
+            <h2>Acertou 10%</h2>
+            <span>Você respondeu 10 questões e acertou 3</span>
+            <button>Fazer novamente</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="questoes.js"></script>
+</body>
+</html>

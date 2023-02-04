@@ -29,7 +29,7 @@ function mostrarQuestoes() {
     fim();
     };
 };
-//mecânica de selecionar e desselecionar elementos
+//mecânica de marcar e desmarcar opcão
 function OpcaoSelected(e) {
     if(e.target.dataset.selected) {
         e.target.removeAttribute('data-selected', 'selected');

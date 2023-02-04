@@ -10,16 +10,6 @@ Questoes = [
         Correta: 3
     },
 
-    {
-        Questao: 'Qual o primeiro campeão da copa do Brasil?',
-        Opcoes: [
-            'Grêmio',
-            'Cruzeiro',
-            'Corinthians',
-            'Botafogo'
-        ],
-        Correta: 0
-    },
 
     {
         Questao: 'Quem são os 3 maiores artilheiros do brasileirão na era dos pontos corridos?',

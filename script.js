@@ -60,7 +60,6 @@ function proximo() {
     });
 
     let opcoesArrayRes = opcoesArrayIndex;
-    console.log(opcoesArrayRes);
 
     if(opcoesArrayRes > -1) {
         try {
